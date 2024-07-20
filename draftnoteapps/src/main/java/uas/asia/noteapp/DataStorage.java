@@ -8,10 +8,15 @@ import java.util.List;
 
 /**
  *
- * @author budi
+ * @author devinta
  */
-public interface DataStorage {
 
+/* 
+* ini interface, yang manggil interface 
+* ini harus membuat fungsi yang ada pada interface (writeData, readData, deleteData)
+*/
+public interface DataStorage {
+    
     void writeData(String note);
 
     List<String> readData();

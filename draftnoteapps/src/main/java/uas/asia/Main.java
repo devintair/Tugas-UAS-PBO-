@@ -11,7 +11,7 @@ import uas.asia.noteapp.NoteAppMenu;
  * @author budi
  */
 public class Main {
-
+    // ini yang pertama dikerjakan
     public static void main(String[] args) {
         NoteAppMenu noteapp = new NoteAppMenu("notes.db");
         noteapp.start();

@@ -16,7 +16,10 @@ import java.util.List;
 public class DatabaseStorage implements DataStorage {
 
     private Connection connection;
-
+    
+    // ini untuk koneksi databasenya, jadi data nota akan disimpan disini
+    // disini manggil interface tadi, makanya disini wajib membuat fungsi
+    // writeData, readDta, dan deleteData
     public DatabaseStorage(String databasePath) {
         try {
             Class.forName("org.sqlite.JDBC");
